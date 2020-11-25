@@ -11,7 +11,7 @@ class Drop {
       display(){
         var pos =this.body.position;
         ellipseMode(RADIUS);
-        fill("white");
+        fill("blue");
         ellipse(pos.x, pos.y, this.radius, this.radius);
       }
       update(){
